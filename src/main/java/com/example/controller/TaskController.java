@@ -42,13 +42,6 @@ public class TaskController {
             });
         }
 
-//        dynamicTask.add("A", cron);
-//        dynamicTask.add("B", cron);
-
-//        Thread.sleep(10000);
-//        dynamicTask.modify("A","*/1 * * * * ?");
-//        Thread.sleep(5000);
-//        dynamicTask.stop("A");
         return "ok";
     }
 
