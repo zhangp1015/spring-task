@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.31.201:3306/try?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: qt2020Aa
+    driverClassName: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
